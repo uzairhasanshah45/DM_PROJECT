@@ -1,0 +1,21 @@
+public string[] decrypter(double[] messageEncryptes, double d, double messageToBeDecryted, double decryptedMessage, double n)
+        {
+            string alphabet = " abcdefghijklmnopqrstuvwxyz.,'";
+            string[] alphabet1 = new string[messageEncryptes.Length];
+            int j = 0;
+
+            for (int i = 0; i < messageEncryptes.Length; i++)
+            {
+                double oldChar = (messageEncryptes[i]);
+                // int oldCharIdx = alphabet[oldChar];
+                messageToBeDecryted = Math.Pow(oldChar, d);
+                decryptedMessage = messageToBeDecryted % n;
+                j = Convert.ToInt32(decryptedMessage);
+                alphabet1[i] = Convert.ToString(alphabet[j]);
+                //j++;
+            }
+
+            return alphabet1;
+
+
+        }

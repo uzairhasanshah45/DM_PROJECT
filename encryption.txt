@@ -1,0 +1,18 @@
+public double[] encrypter(string message, double messageToBeEncrypted, double e, double encryptedMessage, double n)
+        {
+            string alphabet = " abcdefghijklmnopqrstuvwxyz.,'";
+            double[] alphabet1 = new double[message.Length];
+
+            for (int i = 0; i < message.Length; i++)
+            {
+                char oldChar = message.ToLower()[i];
+                int oldCharIdx = alphabet.IndexOf(oldChar);
+                messageToBeEncrypted = Math.Pow(oldCharIdx, e);
+                encryptedMessage = messageToBeEncrypted % n;
+                alphabet1[i] = encryptedMessage;
+            }
+
+            return alphabet1;
+
+
+        }

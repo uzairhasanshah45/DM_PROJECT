@@ -1,0 +1,36 @@
+public void primeNumbers()
+        {
+            this.p = 3;
+            this.q = 11;
+        }
+
+        public double calculatingN()
+        {
+            this.n = this.p * this.q;
+            return n;
+        }
+
+        public void totient()
+        {
+            this.phi = (this.p - 1) * (this.q - 1);
+        }
+
+
+        public void Key(double pblicky, string msg)
+        {
+            this.e = pblicky;
+            this.message = msg;
+        }
+
+        public void calculateD()
+        {
+            for (int i = 1; i > 0; i++)
+            {
+                this.d = i * this.e;
+                if ((this.d % this.phi) == 1)
+                {
+                    this.d = i;
+                    break;
+                }
+            }
+        }

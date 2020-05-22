@@ -1,14 +1,16 @@
-# DM_PROJECT
+# DM Project Report
+# RSA Cryptography
 
-## MEMBERS:
+## Group Members:
 
-1- Uzair Hasan (62324)
-2- Jawad Ahmed (62846)
-3- Syed Wali Uddin (61030)
-4- Syed Huzaifa Saeed (62112)
-5- Daniyal Shafique (61428)
+- Syed Huzaifa Saeed (62112)
+- Uzair Hasan (62324)
+- Syed Wali Uddin (61030)
+- Jawad Ahmed (62846)
+- Daniyal Shafique (61428)
 
-## PROJECT : RSA CRYPTOGRAPHY
+## Submitted To:
+Sir Farooq Zaidi
 
 RSA (Rivest–Shamir–Adleman) is an algorithm used by modern computers to encrypt and decrypt messages. It is an asymmetric cryptographic algorithm. Asymmetric means that there are two different keys.
 

@@ -51,6 +51,9 @@ For an example we choose a small prime number just to be solved easily for an ex
 -	17*2753=46801=1+15*3120
 
 **To encrypt m=123**
+
 c=〖123〗^17 mod3233=855
+
 **To decrypt c=855**
+
 m=〖855〗^2753 mod 3233=123

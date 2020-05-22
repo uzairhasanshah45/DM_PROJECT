@@ -57,3 +57,13 @@ c=〖123〗^17 mod3233=855
 **To decrypt c=855**
 
 m=〖855〗^2753 mod 3233=123
+
+# Advantages of RSA Algorithm
+The primary advantage of public-key cryptography is increased security and convenience: private keys never need to be transmitted or revealed to anyone.  In a secret-key system, by contrast, the secret keys must be transmitted (either manually or through a communication channel) since the same key is used for encryption and decryption.  A serious concern is that there may be a chance that an enemy can discover the secret key during transmission. Another major advantage of public-key systems is they can provide digital signatures that cannot be repudiated.
+
+# Disadvantages of RSA Algorithm
+A disadvantage of using public-key cryptography for encryption is speed, as this subtype of cryptography is usually slow to encrypt a message. There are many secret-key encryption methods that are significantly faster than any currently available public-key encryption method. Another drawback of RSA is that we need a third party to verify the reliablity of the public key.The known method to break the RSA is the meet in the middle process which can possible to break an RSA algorithm.
+
+
+# Conclusion
+The RSA algorithm can be useful after all these drawbacks because of their method to produce both the keys. But, now a days the RSA is used with different cryptographic ciphers to increase the message integrity. To increase the speed in whole encryption of message they found out that they used both asymmetric and symmetric cryptography as both are important and if they should be used wisely than the encryption of a message can be faster and the integrity will be intact.

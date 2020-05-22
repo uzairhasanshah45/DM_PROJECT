@@ -10,7 +10,7 @@
 - Daniyal Shafique (61428)
 
 ## Submitted To:
-Sir Farooq Zaidi
+**Sir Farooq Zaidi**
 
 # Introduction
 RSA(Rivest-Shamir-Adleman) is an algorithm used in modern time to send an encrypted messaged by a sender through a medium and decrypt it by the receiver only. The encryption and decryption of a message, this concept was introduced in early ages to secure the message or shouldn’t be read by other than the receiver. So, a concept of encryption and decryption is introduced. Before RSA there were several algorithms to encrypt and decrypt a message all these algorithms were lie into two categories only symmetric cryptography and Asymmetric cryptography. A symmetric cryptography is consist of a one key only and which is only known to two people the sender and receiver so a one can cipher it and the other can decipher it. Then there is an asymmetric cryptography it possess two keys a public key and a private key. The public key is used to encrypt a message or you can say cipher the message and the other key(private) is used to decrypt or decipher a message.

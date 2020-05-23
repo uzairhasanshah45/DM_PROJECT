@@ -9,7 +9,7 @@
 - Jawad Ahmed (62846)
 - Daniyal Shafique (61428)
 
-## Submitted To:
+## Faculty:
 **Sir Farooq Zaidi**
 
 # Introduction

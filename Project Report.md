@@ -1,5 +1,5 @@
-#DM 103348: RSA Cryptography#
-###PROJECT MEMBERS###
+# DM 103348: RSA Cryptography
+### PROJECT MEMBERS
 StudentID | Name
 ------------ | -------------
 **62324** | **Uzair Hasan**
@@ -24,10 +24,10 @@ The RSA algorithm is based mainly on the two things private key and the prime nu
 The **public key** is made of the modulus **n** and the public (or encryption) exponent **e**.
 The **private key** is made of **p,q** and the private (or decryption) exponent **d** which must be kept secret.
 
-##Discrete Math Concepts Used ##
+## Discrete Math Concepts Used ##
 The whole algorithm in the RSA cryptography is the concept of DM. The encrypting and decrypting of a cipher texts. The method which is most highlighted is the **euclidian** method
 
-###Euclidean Algorithm###
+### Euclidean Algorithm###
 In mathematics the Euclid's Algorithm is an efficient method for computing GCD(Greatest Common Divisor)
 
 public double checkingGCD()
@@ -64,17 +64,17 @@ public double gcd(double a, double h)
 
 
 
-##Problems Faced##
+## Problems Faced##
 In the project we faced so many issues and problems, but we need to solve them and they were kind of complicated to code it.
 
-###Problem 1: Key Generating###
+### Problem 1: Key Generating###
 The first problem faced in the code is the key generating part where first we need to assume a large prime number as if we initialize the p and q with biginteger data type instead of int then it produce randomly the big numbers which was very hard to handle by this code. To solve this problem we used the prime numbers hard coded as it is a sample algorithm and can easily be handled by the Visual Studio.
 
-###Problem 2: Message Encryption###
+### Problem 2: Message Encryption###
 The second problem caused by the first problem the encryption problem. When we face the key generation problem by initializing prime number thats when encryption problem occured when the bigintegers data type the encryption of small messages was very difficult as it is very big numbers and difficult to handled so when we encrypt a small message with only 4-5 letters it produce so big encryption key which is against the RSA Algorithm standard so we make the message according to the key size.
 
 
-##References##
+## References##
 - [RSA](https://simple.wikipedia.org/wiki/RSA_algorithm)
 - [Euclidean](https://en.wikipedia.org/wiki/Euclidean_algorithm)
 - [Lectures](http://discretemathatkiet.22web.org/lectures/22_Cryptography.pdf)
